@@ -1,0 +1,22 @@
+const JOBS: Job = [
+    {
+      id: 1,
+      name: 'RoseWorks',
+      title: 'Founder | Technology Director',
+      location: 'Atlanta, GA',
+      startMonth: '', 
+      endDate: 'Current',
+      description: 'Coming',
+      accomplishments:[
+      {
+        id: 1,
+        details: ',
+        categories:[
+          {name: 'Curated tech education courses and curriculum using various technologies'},
+          {name: 'Leverage partnerships with schools, community organization and other non-profit organizations to established and expand tech educations within existing programs.'},
+          {name: 'Implemented software to automatize operations and increase workflow efficiency'},
+          {name: 'Responsible building web assets, workspace folders and development environments for the online and in person class sessions.'},
+          {name: 'Collected and analyzed data to generate reports that: assisted with grant writing; program adjustments and potential expansion opportunities.'}
+        ]
+    }
+  ]

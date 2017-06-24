@@ -1,0 +1,20 @@
+.sec-ddr-header {
+    background: url('../../assets/ddr-teaching.jpg');
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+.sec-ddr-header h1,
+.sec-ddr-header h3 {
+    text-align: center;
+}
+
+.headerTitle {
+    vertical-align: middle;
+}
+
+.ddrDivider {
+    width: 15%;
+}

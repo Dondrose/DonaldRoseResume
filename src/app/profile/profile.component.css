@@ -1,0 +1,25 @@
+.sec-ddr-profile {
+    background: #f0f0f0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sec-ddr-profile h2 {
+    text-align: center;
+}
+
+.titleQuote {
+    text-align: center;
+}
+
+.content-area {
+    padding: 0 20px;
+}
+
+.content-area p {
+    text-align: justify;
+}
+
+.ddr-table {
+    text-align: left;
+}

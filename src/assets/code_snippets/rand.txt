@@ -1,0 +1,53 @@
+<header class="sec-ddr-intro">
+    <div>  
+      <h1>Donald Rose</h1>
+      <hr>
+      <h3>A Developer's Resume</h3>
+    </div>
+  </header>
+  <section class="sec-ddr-summary">
+    <h2>Summary</h2>
+    <span>Full Stack &amp; Mobile Developer</span>
+    <hr>
+  </section>
+  <section class="sec-ddr-summary">
+    <div fxLayout="row">
+      <div fxFlex="33%">
+        <h3>About Me</h3>
+        <p>Full stack web developer and programmer with 10 years' experience in designing developing and implementing websites and apps. Always looking to discover and learn different web technologies and concepts. Motivated by tough challenges and determined to meet and exceed expectations.</p>
+      </div>
+      <div fxFlex="33%">
+        <img src="" alt="">
+      </div>
+      <div fxFlex="33%">
+        <h3>Contact Information</h3>
+          <div>
+            <span>Name:</span>
+            <p>Donald D. Rose</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec-ddr-">
+    <div fxLayout="row">
+      <div fxFlex="100%">
+        <h2>Experiences</h2>
+        <p>Luck favors the prepared</p>
+      </div>
+    <hr>
+    </div>
+    <div fxLayout="row">
+      <div fxFlex="30%">
+        <h2>Experiences</h2>
+        <p>Luck favors the prepared</p>
+      </div>
+      <div fxFlex="30%">
+        <h2>Experiences</h2>
+        <p>Luck favors the prepared</p>
+      </div>
+      <div fxFlex="30%">
+        <h2>Experiences</h2>
+        <p>Luck favors the prepared</p>
+      </div>
+    </div>
+  </section>
