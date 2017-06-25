@@ -1,13 +1,32 @@
 .sec-ddr-abilities {
-    background: #f0f0f0;
+    background: #e1f1fe;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.sec-ddr-abilities h1,
+.sec-ddr-abilities h2,
+.sec-ddr-abilities h3,
+.sec-ddr-abilities h4,
+.sec-ddr-abilities h5,
+.sec-ddr-abilities h6 {
+    font-family: 'PT Serif', serif;
 }
 
 .sec-ddr-abilities h2 {
     text-align: center;
+    font-size: 28px;
+}
+
+.sec-ddr-abilities h4 {
+    text-align: center;
 }
 
 .titleQuote {
+    text-align: center;
+}
+.sec-ddr-abilities .rightSide {
     text-align: center;
 }

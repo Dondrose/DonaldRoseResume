@@ -1,11 +1,24 @@
 .sec-ddr-projects {
-    background: #f0f0f0;
+    background: #a0b7cb;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.sec-ddr-projects h1,
+.sec-ddr-projects h2,
+.sec-ddr-projects h3,
+.sec-ddr-projects h4,
+.sec-ddr-projects h5,
+.sec-ddr-projects h6 {
+    font-family: 'PT Serif', serif;
 }
 
 .sec-ddr-projects h2 {
     text-align: center;
+    font-size: 28px;
+    font-family: 
 }
 
 .titleQuote {

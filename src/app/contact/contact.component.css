@@ -1,0 +1,21 @@
+.sec-ddr-contact {
+    background: #9da8b1;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.sec-ddr-contact h1,
+.sec-ddr-contact h2,
+.sec-ddr-contact h3,
+.sec-ddr-contact h4,
+.sec-ddr-contact h5,
+.sec-ddr-contact h6 {
+    font-family: 'PT Serif', serif;
+}
+
+.sec-ddr-contact h2 {
+    text-align: center;
+    font-size: 28px;
+}
