@@ -11,6 +11,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 
+import 'hammerjs';
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,3 +1,11 @@
+p, span {
+    font-family: 'PT Sans', sans-serif;
+}
+p {
+    font-size: 14pt;
+}
+
+
 .sec-ddr-projects {
     background: #a0b7cb;
     padding-top: 75px;

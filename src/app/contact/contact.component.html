@@ -4,7 +4,7 @@
       <h2>Contact</h2>
     </div>
   </div>
-  <div fxLayout="row">
+  <div fxLayout="row" class="contact-links">
     <div fxFlex="30%">
       <i></i><a href="https://www.linkedin.com/in/donalddrose/"><span>LinkedIn</span></a>
     </div>
@@ -13,6 +13,26 @@
     </div>
     <div fxFlex="30%">
       <i></i><a href="mailto:dondrose@gmail.com"><span>Email Me</span></a>
+    </div>
+  </div>
+  <div fxLayout="row" class="contact-message">
+    <div fxFlex="100%">
+      <form>
+        <div fxLayout="row">
+          <div fxFlex="50%">
+            <label for="fullname">Full Name</label>
+            <input id="contactname" class="contact-input-name" type="text" name="contactname" value="">
+          </div>
+          <div fxFlex="50%">
+            <label for="contactname">Email</label>
+            <input id="contactemail" class="contact-input-name" type="text" name="contactname" value="">
+          </div>
+          <div fxFlex="100%">  
+            <label for="contactname">Message</label>
+            <textarea rows="" cols=""></textarea>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </section>

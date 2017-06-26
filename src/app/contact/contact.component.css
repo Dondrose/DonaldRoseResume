@@ -1,3 +1,11 @@
+p, span {
+    font-family: 'PT Sans', sans-serif;
+}
+p {
+    font-size: 14pt;
+}
+
+
 .sec-ddr-contact {
     background: #9da8b1;
     padding-left: 25px;
@@ -18,4 +26,9 @@
 .sec-ddr-contact h2 {
     text-align: center;
     font-size: 28px;
+}
+
+.sec-ddr-contact .contact-links {
+    text-align: center;
+    font-family: 
 }
