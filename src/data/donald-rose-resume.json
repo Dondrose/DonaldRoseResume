@@ -4,9 +4,240 @@
     "candidate": {
         "name": {
             "first": "Donald",
-            "middle"
+            "middle": "",
             "middleInitial": "D",
             "last": "Rose"
-        }
+        },
+        "contact": {
+            "phone": {
+                "mobile": "(773)-941-3370",
+                "home":   "(404)-344-4775"
+            },
+            "location": {
+                "address": "Not Listed",
+                "city": "Atlanta",
+                "state": "GA",
+                "zip": "30349"
+            },
+            "links":{
+                "email": {
+                    "main": "dondrose@gmail.com",
+                    "alternative": "donaldrose@roselution.com"
+                },
+                "linkedIn": "https://www.linkedin.com/in/donalddrose/",
+                "github": "https://github.com/Dondrose/",
+                "bitbucket": "https://bitbucket.org/Roselution/donaldroseresume"
+            }
+        },
+        "experience": [
+            {
+                "company": {
+                    "name": "RoseWorks",
+                    "location":{
+                        "city": "Atlanta",
+                        "state": "GA"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "January",
+                            "year": "2016"
+                        },
+                        "end": {
+                            "month": "N/A",
+                            "year": "N/A",
+                            "current": "Current"
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Technology Director",
+                    "description": "Coming Soon",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Curated tech education courses and curriculum using various technologies.",
+                            "category": [
+                                {"cat": "Curriculum Development"},
+                                {"cat": "Education"},
+                                {"cat": "Technology"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Leverage partnerships with schools, community organization and other non-profit organizations to established and expand tech educations within existing programs.",
+                            "category": [
+                                {"cat": "Partnership Acquisition"},
+                                {"cat": "Community Organization"},
+                                {"cat": "Non Profit"},
+                                {"cat": "Tech Expansion"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Implemented software to automatize operations and increase workflow efficiency.",
+                            "category": [
+                                {"cat": "Software Implementation"},
+                                {"cat": "Workflow"},
+                                {"cat": "Efficiency"},
+                                {"cat": "Automation"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Responsible building web assets, workspace folders and development environments for the online and in person class sessions.",
+                            "category": [
+                                {"cat": "Development Environments"},
+                                {"cat": "Workspace"},
+                                {"cat": "Online Class"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Collected and analyzed data to generate reports that: assisted with grant writing; program adjustments and potential expansion opportunities.",
+                            "category": [
+                                {"cat": "Data Collection"},
+                                {"cat": "Data Analysis"}
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "abilities": [
+            {
+                "name":"HTML5",
+                "expYrs": "15",
+                "rating": "100",
+                "examples": [
+                    {
+                        "name": "",
+                        "url": ""
+                    },
+                    {
+                        "name": "",
+                        "url": ""
+                    },
+                    {
+                        "name": "",
+                        "url": ""
+                    },
+                    {
+                        "name": "",
+                        "url": ""
+                    }
+                ]
+            }
+        ],
+        "projects": {
+            "websitePortfolio": [
+                {
+                    "_id": 0,
+                    "type": "",
+                    "client": {
+                        "name": "",
+                        "projTitle": "",
+                        "projURL": ""
+                    },
+                    "technologies": [
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""}
+                    ]
+                }
+            ],
+            "designPortfolio": [
+                {
+                    "_id": 0,
+                    "type": "",
+                    "client": {
+                        "name": "",
+                        "projTitle": "",
+                        "projURL": ""
+                    },
+                    "technologies": [
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""}
+                    ],
+                    "inspirations": [
+                        {"concept": "", "description": ""},
+                        {"concept": "", "description": ""},
+                        {"concept": "", "description": ""},
+                        {"concept": "", "description": ""},
+                        {"concept": "", "description": ""},
+                        {"concept": "", "description": ""}
+                    ]
+                }
+            ],
+            "codingPortfolio": [
+                {
+                    "_id": 0,
+                    "type": "",
+                    "client": {
+                        "name": "",
+                        "projTitle": "",
+                        "projURL": ""
+                    },
+                    "technologies": [
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""}
+                    ],
+                    "tools": [
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""}
+                    ],
+                    "methodologies": [
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""},
+                        {"name": ""}
+                    ]
+                }
+            ]
+        },
+        "section": {
+            "header": {
+                "title": "",
+                "quote": ""
+            },
+            "profile": {
+                "title": "",
+                "quote": ""
+            },
+            "experience": {
+                "title": "",
+                "quote": ""
+            },
+            "abilitites": {
+                "title": "",
+                "quote": "",
+                "subSection": [
+                    {   "codingTitle": "" },
+                    {   "technicalTitle": "" },
+                    {   "designTitle": "" },
+                    {   "toolsTitle": "" },
+                    {   "softwareTitle": "" }
+                ]
+            },
+            "projects": {
+                "title": "",
+                "quote": ""
+            },
+            "contact": {
+                "title": "",
+                "quote": ""
+            }
+        }        
     }
 }
