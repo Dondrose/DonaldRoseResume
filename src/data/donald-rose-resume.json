@@ -96,6 +96,391 @@
                         }
                     ]
                 }
+            },
+            {
+                "company": {
+                    "name": "RoseWorks",
+                    "location":{
+                        "city": "Atlanta",
+                        "state": "GA"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "January",
+                            "year": "2016"
+                        },
+                        "end": {
+                            "month": "N/A",
+                            "year": "N/A",
+                            "current": "Current"
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Technology Director",
+                    "description": "Coming Soon",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Curated tech education courses and curriculum using various technologies.",
+                            "category": [
+                                {"cat": "Curriculum Development"},
+                                {"cat": "Education"},
+                                {"cat": "Technology"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Leverage partnerships with schools, community organization and other non-profit organizations to established and expand tech educations within existing programs.",
+                            "category": [
+                                {"cat": "Partnership Acquisition"},
+                                {"cat": "Community Organization"},
+                                {"cat": "Non Profit"},
+                                {"cat": "Tech Expansion"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Implemented software to automatize operations and increase workflow efficiency.",
+                            "category": [
+                                {"cat": "Software Implementation"},
+                                {"cat": "Workflow"},
+                                {"cat": "Efficiency"},
+                                {"cat": "Automation"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Responsible building web assets, workspace folders and development environments for the online and in person class sessions.",
+                            "category": [
+                                {"cat": "Development Environments"},
+                                {"cat": "Workspace"},
+                                {"cat": "Online Class"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Collected and analyzed data to generate reports that: assisted with grant writing; program adjustments and potential expansion opportunities.",
+                            "category": [
+                                {"cat": "Data Collection"},
+                                {"cat": "Data Analysis"}
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "company": {
+                    "name": "Roselution",
+                    "location":{
+                        "city": "Atlanta",
+                        "state": "GA"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "October",
+                            "year": "2012"
+                        },
+                        "end": {
+                            "month": "N/A",
+                            "year": "N/A",
+                            "current": "Current"
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Founder Lead Developer",
+                    "description": "Managed a team of 2 - 5 employees. Responsibilities included hiring, acquiring new business, developer training, team-building, coaching, project management. Launched over 15 web site redesigns from inception to completion.",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Managed budgets, contracts, staff and project timelines based on the needs and requirements of the clients.",
+                            "category": [
+                                {"cat": "Budget"},
+                                {"cat": "Staff"},
+                                {"cat": "Contracts"}
+                            ]
+                        },
+                        {
+                            "descriptions": "Manage multiple servers for web hosting, domains, emails, file storage access and site configurations.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Monitored network activity to ensure essential information is collected to be tracked, logged and analyzed.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Utilized A/B testing to help increase web traffic flow, and convert that traffic into lead and eventually customers.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Created custom WordPress Themes and Plugins when necessary to support the specific needs of the client.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Designed website templates for projects[ sketches, wireframes, prototypes, PSDs].",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Created and maintained the standards, document, files, media and oversaw production of Javascript, HTML, and CSS, PHP.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "company": {
+                    "name": "Nsoromma Schools",
+                    "location":{
+                        "city": "Atlanta",
+                        "state": "GA"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "June",
+                            "year": "2016"
+                        },
+                        "end": {
+                            "month": "N/A",
+                            "year": "N/A",
+                            "current": "Current",
+                            "onGoing": "On Going"
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Technology Instructor",
+                    "description": "",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Developed tech curriculum for programs with assessments, to facilitate class lessons and measure success.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Instructed sessions that helped built foundational understanding of the basic programming principles.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Setup promotional campaigns to generate more enrollments with the school and programs offered.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Hosted presentations and workshop to enact interest in technology with children and teens.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "company": {
+                    "name": "Chil Creative",
+                    "location":{
+                        "city": "Atlanta",
+                        "state": "GA"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "January",
+                            "year": "2015"
+                        },
+                        "end": {
+                            "month": "August",
+                            "year": "2016",
+                            "current": ""
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Full Stack Developer",
+                    "description": "Coming Soon",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Setup WordPress installation instances for new acquire accounts.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Developed themes and plugins for custom designed sites.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Created project timelines for backend coding functions.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Coding of custom Wordpress theme and template files.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Deployment from local environment to staging then to production using Git and a private repo on BitBucket.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "company": {
+                    "name": "Sherman School of Excellence",
+                    "location":{
+                        "city": "Chicago",
+                        "state": "IL"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "October",
+                            "year": "2013"
+                        },
+                        "end": {
+                            "month": "May",
+                            "year": "2014",
+                            "current": ""
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Technology Instructor",
+                    "description": "Coming Soon",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Engaged students with activities that introduced technology principles that encourage critical and creative thinking.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Created projects to familiarize students with the method process it takes to complete most technology assignments.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ],
+                            "subProjects": [
+                                { "content": "Basic Webpage Development"},
+                                { "content": "Binary Numbers"},
+                                { "content": "Internet Security"},
+                                { "content": "How to effectively Use Google Search"}
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "company": {
+                    "name": "Allstate Insurance Company",
+                    "location":{
+                        "city": "Woodridge",
+                        "state": "IL"
+                    },
+                    "dates": {
+                        "start": {
+                            "month": "Febrary",
+                            "year": "2010"
+                        },
+                        "end": {
+                            "month": "August",
+                            "year": "2014",
+                            "current": ""
+                        }
+                    }
+                },
+                "details": {
+                    "title": "Insurance Agent",
+                    "description": "Field inbound calls from customers helping to answer their questions, explain options and sell additional coverage's as well as assisting them with adding and making changes to insurance policies.",
+                    "accomplishments": [
+                        {
+                            "descriptions": "Trained & Developed new hires on sales techniques and tactics to enhance efficiency and production.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Facilitated presentations that analyzed team goals and changes to processe.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Implemented small programs to automate processes to increase workflow efficiency.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        },
+                        {
+                            "descriptions": "Brought in, maintained & saved over $1,000,000 in premium in 2012 and currently on pace to exceed that goal in 2013.",
+                            "category": [
+                                {"cat": ""},
+                                {"cat": ""},
+                                {"cat": ""}
+                            ]
+                        }
+                    ]
+                }
             }
         ],
         "abilities": [

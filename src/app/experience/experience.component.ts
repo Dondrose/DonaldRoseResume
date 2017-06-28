@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { JobService } from '../job.service'; //NOTE: Step 1: Import the Service into component
+import { JobService } from '../job/job.service'; //NOTE: Step 1: Import the Service into component
 
 @Component({
   selector: 'app-experience',

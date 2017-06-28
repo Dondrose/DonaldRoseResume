@@ -25,13 +25,5 @@ export class Job {
         this.description;
         this.accomplishments;
     }
-
-    getJobLocation() {
-    }
-
-    getJobAccomplishments() {
-
-    }
-
 }
 

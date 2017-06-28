@@ -18,7 +18,8 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 
 //Services Imports
-import { JobService } from './job.service';
+import { JobService } from './job/job.service';
+import { JobComponent } from './job/job.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { JobService } from './job.service';
     AbilitiesComponent,
     ProjectsComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,
