@@ -17,5 +17,4 @@ export class CandidateService {
     getCandidate(): Observable<ICandidate[]> {
       return this.http.get(this.candidateUrl).map(res => res.json());
   }
-
 }

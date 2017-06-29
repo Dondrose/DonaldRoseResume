@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
 
+import { CandidateService } from './candidate.service';
 
 @Component({
   selector: 'app-candidate',
@@ -9,9 +12,12 @@ import { Component, OnInit } from '@angular/core';
 export class CandidateComponent implements OnInit {
   candidate = [];
 
-  constructor() { }
+  constructor(private _candidateService: CandidateService) {
+  }
 
   ngOnInit() {
+    this._candidateService.getCandidate()
+      .subscribe(responseCandidateData => this.candidate = responseCandidateData);
   }
 
 }
