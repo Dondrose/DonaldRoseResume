@@ -6,9 +6,6 @@ import { HttpModule }         from '@angular/http';
 import { FlexLayoutModule }   from '@angular/flex-layout';
 import { AppComponent }       from './app.component';
 
-// 3rd Party Library Imports
-import 'hammerjs';
-
 // User Defined Components Imports
 import { ExperienceComponent } from './experience/experience.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -20,6 +17,8 @@ import { HeaderComponent } from './header/header.component';
 //Services Imports
 import { JobService } from './job/job.service';
 import { JobComponent } from './job/job.component';
+
+import { ExperienceService } from './experience/experience.service';
 
 @NgModule({
   declarations: [
