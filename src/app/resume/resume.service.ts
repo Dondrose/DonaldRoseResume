@@ -5,21 +5,34 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
-import { Resume } from './resume';
+import { IResume } from './resume';
+import { ICandidate } from './candidate/candidate';
 
 @Injectable()
 export class ResumeService {
 
   private resumeUrl: '../../data/donald-rose-resume.json';
 
-  constructor(private http: Http) {
-    
+  constructor(private http: Http) { }
+
+  getResume() {
+    return this.http.get(this.resumeUrl)
+      .map(res => res.json())
   }
 
-  getResumes(): Observable<Resume[]> {
+  getCandidate(): Observable<ICandidate[]> {
     return this.http.get(this.resumeUrl)
-      .map(this.extractData)
-      .catch(this.handleError);
+      .map((response: Response) => <ICandidate[]> response.json());
+  }
+
+  postCandidate() {
+    var json = JSON.stringify(this.resumeUrl);
+    var params = 'json=' + json;
+    var header = new Headers();
+    header.append('Content-Type', 'application/x-www-form-urlencoded');
+
+    return this.http.post(this.resumeUrl, params)
+      .map(res => res.json().candidate);
   }
 
   private extractData( res: Response) {
@@ -39,4 +52,5 @@ export class ResumeService {
     console.error(errMsg);
     return Observable.throw(errMsg);
   }
+  
 }

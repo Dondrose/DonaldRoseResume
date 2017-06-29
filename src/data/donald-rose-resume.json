@@ -29,8 +29,15 @@
                 "bitbucket": "https://bitbucket.org/Roselution/donaldroseresume"
             }
         },
-        "experience": [
+        "experience": {
+            "section": {
+                    "title": "Work Experience",
+                    "quote": "Luck Favor the Prepared"
+        }, 
+        "companies":
+        [
             {
+                "_id": 0,
                 "company": {
                     "name": "RoseWorks",
                     "location":{
@@ -98,6 +105,7 @@
                 }
             },
             {
+                "_id": 1,
                 "company": {
                     "name": "RoseWorks",
                     "location":{
@@ -165,6 +173,7 @@
                 }
             },
             {
+                "_id": 2,
                 "company": {
                     "name": "Roselution",
                     "location":{
@@ -246,6 +255,7 @@
                 }
             },
             {
+                "_id": 3,
                 "company": {
                     "name": "Nsoromma Schools",
                     "location":{
@@ -307,6 +317,7 @@
                 }
             },
             {
+                "_id": 4,
                 "company": {
                     "name": "Chil Creative",
                     "location":{
@@ -374,6 +385,7 @@
                 }
             },
             {
+                "_id": 5,
                 "company": {
                     "name": "Sherman School of Excellence",
                     "location":{
@@ -423,6 +435,7 @@
                 }
             },
             {
+                "_id": 6,
                 "company": {
                     "name": "Allstate Insurance Company",
                     "location":{
@@ -590,39 +603,7 @@
                     ]
                 }
             ]
-        },
-        "section": {
-            "header": {
-                "title": "",
-                "quote": ""
-            },
-            "profile": {
-                "title": "",
-                "quote": ""
-            },
-            "experience": {
-                "title": "",
-                "quote": ""
-            },
-            "abilitites": {
-                "title": "",
-                "quote": "",
-                "subSection": [
-                    {   "codingTitle": "" },
-                    {   "technicalTitle": "" },
-                    {   "designTitle": "" },
-                    {   "toolsTitle": "" },
-                    {   "softwareTitle": "" }
-                ]
-            },
-            "projects": {
-                "title": "",
-                "quote": ""
-            },
-            "contact": {
-                "title": "",
-                "quote": ""
-            }
-        }        
+        }      
+    }
     }
 }
