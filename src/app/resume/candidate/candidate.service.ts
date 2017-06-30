@@ -14,7 +14,7 @@ export class CandidateService {
   constructor(private http: Http) { }
 
     getCandidate(): Observable<ICandidate[]> {
-    return this.http.get(this.candidateUrl).map(res => res.json());
+    return this.http.get(this.candidateUrl).map(res => res.json().candidate);
   }
 
 }

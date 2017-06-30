@@ -20,11 +20,6 @@ export class ResumeService {
       .map(res => res.json())
   }
 
-  getCandidate(): Observable<ICandidate[]> {
-    return this.http.get(this.resumeUrl)
-      .map((response: Response) => <ICandidate[]> response.json());
-  }
-
   postCandidate() {
     var json = JSON.stringify(this.resumeUrl);
     var params = 'json=' + json;
