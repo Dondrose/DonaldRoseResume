@@ -22,18 +22,4 @@ export class ResumeDataService {
       .catch((handleError => Observable.throw(handleError.json().error || 'Server Error')));
   }
 
-  getCandidateInfo(body:Object): Observable<ResumeObject[]>{
-    let bodyString = JSON.stringify(body);
-    let header = new Headers({'Content-Type': 'application/json' });
-    let options = new RequestOptions({headers: header});
-    let resumeData = this.getResume();
-
-    return this.http.post(this.resumeUrl, bodyString, options)
-      .filter(function(rData) {
-        return rData.candidate === "candidate";
-      })
-      .map((response: Response) => response.json())
-      .catch((handleError:any) => Observable.throw(handleError.json().error || 'Server error'));
-  }
-
 }
