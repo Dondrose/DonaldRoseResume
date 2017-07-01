@@ -21,5 +21,4 @@ export class ResumeDataService {
       .map((response: Response) => response.json().data)
       .catch((handleError => Observable.throw(handleError.json().error || 'Server Error')));
   }
-
 }
