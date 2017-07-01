@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { Headers, Http, Response, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
-import 'rxjs/add/operator/toPromise';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
 
 import { Resume, ResumeObject, ResumeSectionObject } from './resume-object';
 
@@ -17,18 +18,22 @@ export class ResumeDataService {
 
   getResume(): Observable<Resume[]> {
     return this.http.get(this.resumeUrl)
-      .map(response => response.json().data);
+      .map((response: Response) => response.json().data)
+      .catch((handleError => Observable.throw(handleError.json().error || 'Server Error')));
   }
 
-  getCandidateInfo(): Observable<ResumeObject[]>{
-    return this.http.get(this.resumeUrl)
-      .map(response => response.json().data)
-      .filter(this.resume =>)
-  }
+  getCandidateInfo(body:Object): Observable<ResumeObject[]>{
+    let bodyString = JSON.stringify(body);
+    let header = new Headers({'Content-Type': 'application/json' });
+    let options = new RequestOptions({headers: header});
+    let resumeData = this.getResume();
 
-  private handleError(error: any): Promise<any> {
-    console.error('An error has occurred', error);
-    return Promise.reject(error.message || error);
+    return this.http.post(this.resumeUrl, bodyString, options)
+      .filter(function(rData) {
+        return rData.candidate === "candidate";
+      })
+      .map((response: Response) => response.json())
+      .catch((handleError:any) => Observable.throw(handleError.json().error || 'Server error'));
   }
 
 }
