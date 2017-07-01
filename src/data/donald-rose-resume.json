@@ -1,11 +1,11 @@
-{
+[
+    {
     "documentTitle": "Donald D. Rose Resume",
     "type": "developer-A",
     "candidate": {
         "name": {
             "first": "Donald",
-            "middle": "",
-            "middleInitial": "D",
+            "middle": "DeAngelo",
             "last": "Rose"
         },
         "contact": {
@@ -27,7 +27,8 @@
                 "linkedIn": "https://www.linkedin.com/in/donalddrose/",
                 "github": "https://github.com/Dondrose/",
                 "bitbucket": "https://bitbucket.org/Roselution/donaldroseresume"
-            }
+            },
+            "summary":"Day Job: Progressive Web and Mobile App developer with 12 years of experience of building for the internet. Possesses a strong coding foundation in object oriented programming and highly knowledgeable of data structures and algorithms. Adaptive to different web technologies and concepts (Current passions: MVC, Docker, Angular, Typescript & GoLang) to deliver an innovative website. Motivated by the process of creation and delivering a final project that exceeds expectations. Alter Ego: Technology and programming instructor with a passion of making tech literacy a realization within under represented communities."
         },
         "experience": {
             "section": {
@@ -606,4 +607,4 @@
         }      
     }
     }
-}
+}]
