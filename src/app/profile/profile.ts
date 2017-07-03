@@ -1,17 +1,18 @@
-import { ResumeObject } from '../shared/resume-object';
-
-export interface Profile extends ResumeObject {
-    firstName: string;
-    middleName: string;
-    lastName: string;
-    mobilePhone: string;
-    homePhone: string;
-    address: string;
-    city: string;
-    state: string;
-    zip: string;
-    linkedin: string;
-    github: string;
-    bitbucket: string;
-    summary: string;
+export interface Profile {
+  id: number;
+  firstName: string;
+  lastName: string;
+  middleName: string;
+  summary: string;
+  mobilePhone: string;
+  homePhone: string;
+  address: string;
+  city: string;
+  state: string;
+  zip: string;
+  email: string;
+  emailAtl: string;
+  linkedIn: string;
+  github: string;
+  bitbucket: string;
 }

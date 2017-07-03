@@ -11,13 +11,12 @@ import { ProfileService } from './profile.service';
 export class ProfileComponent implements OnInit {
   profile: Profile[];
 
-  constructor( private profileService: ProfileService) { }
+  constructor( private profileService: ProfileService ) { }
 
   getProfile(): void {
     this.profileService.getProfile().then(profile => this.profile = profile);
   }
-  
-  ngOnInit(): void {
+  ngOnInit() {
     this.getProfile();
   }
 
