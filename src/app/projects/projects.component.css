@@ -18,7 +18,16 @@
 .sec-ddr-projects h2 {
     text-align: center;
     font-size: 28px;
-    font-family: 
+}
+
+.sec-ddr-projects .project-widget {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-ddr-projects .project-widget img{
+    width: 75%;
 }
 
 .titleQuote {

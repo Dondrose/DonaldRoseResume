@@ -9,30 +9,68 @@ import { ProfileService } from './profile.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+  
+  isNewView: boolean;
+  showView: boolean;
+  viewProfile: Profile;
   profile: Profile[];
 
   constructor( private profileService: ProfileService ) { }
 
-  getProfile(): void {
-    this.profileService.getProfile().then(profile => this.profile = profile);
-  }
   ngOnInit() {
-    this.getProfile();
+    this.profileService.getProfile()  
+      .subscribe(
+        profile => this.profile = profile,
+        error => console.log(<any>error)
+      );
   }
 
-  /**
-   * 
-  getCandidateInfo(body:Object): Observable<ResumeObject[]>{
-    let bodyString = JSON.stringify(body);
-    let header = new Headers({'Content-Type': 'application/json' });
-    let options = new RequestOptions({headers: header});
-    let resumeData = this.getResume();
+  showProfileView(profile: Profile) {
+    if(!profile) {
+      this.isNewView = true;
+      
+    }
 
-    return this.http.post(this.resumeUrl, body, options)
-      .map((response: Response) => response.json())
-      .catch((handleError:any) => Observable.throw(handleError.json().error || 'Server error'));
+    this.showView = true;
+    this.viewProfile = profile;
   }
 
-   */
+  removeProfile(profile: Profile) {
+    this.profileService.deleteProfile(profile)
+      .subscribe(
+        () => this.removeProfile(profile),
+        error => console.log(error)
+      );
+  }
 
+  saveProfile(profile: Profile) {
+    if(profile) {
+      if(this.isNewView){
+        this.profileService.insertProfile(profile)
+        .subscribe((insertProfile) => {
+          this.profile.push(insertProfile),
+          error => console.log(error)
+        });
+      }
+      else {
+        this.profileService.updateProfiles(profile)
+          .subscribe(
+            () => {},
+            error => console.log(error)
+          );
+      }
+
+      this.showView = false;
+      this.isNewView = false;
+      profile =null;
+    }
+  }
+
+  private removeProfileFromList(profile: Profile) {
+    var index = this.profile.indexOf(profile, 0);
+
+    if (index > -1) {
+      this.profile.splice(index,1);
+    }
+  }
 }

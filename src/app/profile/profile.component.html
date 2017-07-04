@@ -16,25 +16,14 @@
       <div>
         <table class="ddr-table">
           <tbody>
-            <tr>
+            <tr *ngFor="let profile of profiles">
               <th><span>Name:{{profile.firstName}}</span></th>
-            </tr>
-            <tr>
               <td><span>Donald D. Rose</span></td>
-            </tr>
-            <tr>
+              <td><span>{{profile.firstName}}</span></td>
               <th><span>Email:</span></th>
-            </tr>
-            <tr>
               <td><span>dondrose@gmail.com</span></td>
-            </tr>
-            <tr>
               <th><span>Location:</span></th>
-            </tr>
-            <tr>
               <td><span>Atlanta, GA</span></td>
-            </tr>
-            <tr>
               <th><span>My Links :</span></th>
             </tr>
             <tr>
