@@ -1,4 +1,4 @@
-export interface Profile {
+export class Profile {
   id: number;
   firstName: string;
   lastName: string;
@@ -15,4 +15,7 @@ export interface Profile {
   linkedIn: string;
   github: string;
   bitbucket: string;
+  constructor() {
+    
+  }
 }

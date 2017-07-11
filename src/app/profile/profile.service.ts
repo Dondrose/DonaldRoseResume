@@ -13,45 +13,28 @@ export class ProfileService {
   
   private headers = new Headers({'Content-Type': 'application/json'});
   // private profileURL: './donald-rose-profile.json';
-  private profileURL: './donald-rose-profile.json';
-  
+  private profileURL: '../../../donald-rose-profile.json';
+  private profile: Profile[];
 
   constructor(private http: Http) { }
 
+  setProfile(profile: Profile[]) {
+    this.profile = profile;
+  }
+
   getProfile(): Observable<Profile[]> {
     return this.http.get(this.profileURL)
-      .map(response => response.json().data as Profile[])
+      .map(this.extractData)
       .catch(this.handleError);
   }
 
-  deleteProfile(profile: Profile): Observable<any>{
-    let deleteUrl = '${this.profileUrl}/{profile.id}';
-
-    return this.http.delete(deleteUrl)
-      .map(response => response.json() as Profile[])
-      .catch(this.handleError);
-  }
-
-  insertProfile(profile: Profile): Observable<Profile> {
-    return this.http.post(this.profileURL, JSON.stringify(profile), {headers: this.headers})
-      .map(response => response.json() as Profile)
-      .catch(this.handleError);
-  }
-
-  updateProfiles(profile: Profile): Observable<any> {
-    let updateUrl = '${this.profileUrl}/${profile.id}';
-
-    return this.http.put(updateUrl, JSON.stringify(profile), {headers: this.headers})
-      .catch(this.handleError);
-  }
-
-  private success(): Observable<any> {
-    return Observable.create();
-  }
-
+    private extractData( response: Response) {
+      let body = response.json();
+      return body;
+    }
 
     private handleError(error: any): Observable<any> {
-      let errorMessage = '${this.status} - ${response.statusText}';
-      return Observable.throw(errorMessage);
+      console.error(error.message || error);
+      return Observable.throw(error.message || error);
   }
 }

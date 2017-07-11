@@ -16,7 +16,7 @@
       <div>
         <table class="ddr-table">
           <tbody>
-            <tr *ngFor="let profile of profiles">
+            <tr *ngFor="let profile of candidateProfile | async">
               <th><span>Name:{{profile.firstName}}</span></th>
               <td><span>Donald D. Rose</span></td>
               <td><span>{{profile.firstName}}</span></td>
