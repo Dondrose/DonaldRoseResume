@@ -15,6 +15,14 @@ import { ProfileService } from './profile/profile.service';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryProfileDataService } from './profile/in-memory-profile-data.service';
 
+import { RouterModule, Routes } from '@angular/router';
+
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+const resumeRoutes: Routes = [
+  { path: '', redirectTo:'/', pathMatch: 'full' }
+];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +38,7 @@ import { InMemoryProfileDataService } from './profile/in-memory-profile-data.ser
     FormsModule,
     HttpModule,
     FlexLayoutModule,
+    RouterModule.forRoot( resumeRoutes ),
     InMemoryWebApiModule.forRoot(InMemoryProfileDataService)
   ],
   providers: [ProfileService],
