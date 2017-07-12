@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http, Response } from '@angular/http';
+import { Headers, Http, Response, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/throw';
+import 'rxjs/add/operator/toPromise';
 
 import { Profile } from './profile';
 
@@ -22,10 +23,18 @@ export class ProfileService {
     this.profile = profile;
   }
 
-  getProfile(): Observable<Profile[]> {
+  getProfiles(): Promise<Array<Profile>> {
     return this.http.get(this.profileURL)
-      .map(this.extractData)
+      .toPromise()
+      .then((response) => {
+        return response.json().data as Profile[];
+      })
       .catch(this.handleError);
+  }
+
+  getProfile(id: number): Promise<Profile> {
+    return this.getProfiles()
+      .then(profiles => profiles.find(profile => profile.id === id));
   }
 
     private extractData( response: Response) {
@@ -33,8 +42,8 @@ export class ProfileService {
       return body;
     }
 
-    private handleError(error: any): Observable<any> {
+    private handleError(error: any): Promise<any> {
       console.error(error.message || error);
-      return Observable.throw(error.message || error);
+      return Promise.reject(error.message || error);
   }
 }

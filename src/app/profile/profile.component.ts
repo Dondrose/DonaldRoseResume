@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 
 import { Profile } from './profile';
@@ -10,16 +11,20 @@ import { ProfileService } from './profile.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  candidateProfile: Observable<Profile[]>
-  profile: Profile[];
+  profiles: Profile[];
+  highlightedProfile: Profile;
   errorMessage: String;
 
-  constructor( private profileService: ProfileService ) { }
+  constructor( private router: Router, private profileService: ProfileService ) { }
+
+  getProfiles(): void {
+    this.profileService
+      .getProfiles()
+      .then(profiles => this.profiles = profiles)
+      .catch(error => this.errorMessage = error);
+  }
 
   ngOnInit(): void {
-    this.candidateProfile = this.profileService.getProfile();
-    this.candidateProfile.subscribe(
-      profile => this.profile = profile,
-      error => this.errorMessage = <any>error);
+    this.getProfiles();
   }
 }
