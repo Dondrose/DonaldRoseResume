@@ -18,6 +18,8 @@ import { EducationComponent } from './resume/education/education.component';
 import { ProjectComponent } from './resume/project/project.component';
 import { SkillComponent } from './resume/skill/skill.component';
 
+import { HeaderService } from './header/header.service';
+
 const appRoutes: Routes = [
   {path: 'abilities-link', component: AbilitiesComponent},
   {path: 'experience-link', component: ExperienceComponent},
@@ -49,7 +51,7 @@ const appRoutes: Routes = [
     FlexLayoutModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [HeaderService],
   bootstrap: [AppComponent, ]
 })
 export class AppModule { }

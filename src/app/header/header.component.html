@@ -5,8 +5,9 @@
     </div>
   </div>
   <hr class="ddrDivider">
-  <div fxLayout="row">
-    <div fxFlex="100%"  class="headerTitleArea" >
+  <div fxLayout="row" >
+    <div fxFlex="100%" class="headerTitleArea" *ngFor="let item of header">
+      <h3>{{item.lastName}}</h3>
       <h3>A Developer's Resume</h3>
     </div>
   </div>
