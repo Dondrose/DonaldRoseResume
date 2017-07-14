@@ -12,12 +12,6 @@ import { AbilitiesComponent } from './abilities/abilities.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
-import { ResumeComponent } from './resume/resume.component';
-import { CandidateComponent } from './resume/candidate/candidate.component';
-import { CandidateListComponent } from './resume/candidate/candidate-list.component';
-import { EducationComponent } from './resume/education/education.component';
-import { ProjectComponent } from './resume/project/project.component';
-import { SkillComponent } from './resume/skill/skill.component';
 
 import { HeaderService } from './header/header.service';
 import { ProfileService } from './profile/profile.service';
@@ -40,13 +34,7 @@ const appRoutes: Routes = [
     AbilitiesComponent,
     ProjectsComponent,
     ContactComponent,
-    HeaderComponent,
-    ResumeComponent,
-    CandidateComponent,
-    EducationComponent,
-    ProjectComponent,
-    SkillComponent,
-    CandidateListComponent
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

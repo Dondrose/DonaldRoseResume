@@ -10,5 +10,4 @@ export class Experience {
         public endDate: string;
         public description: string;
         public title: string;
-       public IAccomplishments<string>: Accomplishments;
 }
