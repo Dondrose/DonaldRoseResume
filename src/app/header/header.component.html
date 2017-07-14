@@ -1,14 +1,13 @@
 <section class="sec-ddr-header">
-  <div fxLayout="row" > 
-    <div fxFlex="100%" class="headerTitleArea" >
-      <h1 class="quoteTitle">Donald D. Rose</h1>
+  <div fxLayout="row" *ngIf="header" id="top-header-title"> 
+    <div fxFlex="100%" class="headerTitleArea" *ngFor="let item of header">
+      <h1 class="quoteTitle">{{item.firstName}} {{item.middleName}} {{item.lastName}}</h1>
     </div>
   </div>
   <hr class="ddrDivider">
-  <div fxLayout="row" >
+  <div fxLayout="row" id="bottom-header-title">
     <div fxFlex="100%" class="headerTitleArea" *ngFor="let item of header">
-      <h3>{{item.lastName}}</h3>
-      <h3>A Developer's Resume</h3>
+      <h3>{{item.resumeTitle}}</h3>
     </div>
   </div>
 </section>

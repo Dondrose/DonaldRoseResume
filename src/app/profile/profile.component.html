@@ -1,15 +1,14 @@
-<section class="sec-ddr-profile">
+<section class="sec-ddr-profile" *ngFor="let item of profile">
   <div fxLayout="row">
     <div fxFlex="100%">
       <h2>Profile</h2>
-      <p class="titleQuote"><em>Luck favors the prepared.</em></p>
+      <p class="titleQuote"><em>{{item.quote}}</em></p>
     </div>
   </div>
   <div fxLayout="row">
-    <div class="content-area" fxFlex="70%">
+    <div class="content-area" fxFlex="70%" >
       <h3>About Me</h3>
-      <p>Day Job: Progressive Web and Mobile App developer with 12 years of experience of building for the internet. Possesses a strong coding foundation in object oriented programming and highly knowledgeable of data structures and algorithms. Adaptive to different web technologies and concepts (Current passions: MVC, Docker, Angular, Typescript &amp; GoLang) to deliver an innovative website. Motivated by the process of creation and delivering a final project that exceeds expectations.</p>
-      <p>Alter Ego: Technology and programming instructor with a passion of making tech literacy a realization within under represented communities.</p>
+      <p>{{item.summary}}</p>
     </div>
     <div class="content-area" fxFlex="30%">
       <h3>Details:</h3>
@@ -20,26 +19,26 @@
               <th><span>Name:</span></th>
             </tr>
             <tr>
-              <td><span>Donald D. Rose</span></td>
+              <td><span>{{item.firstName}} {{item.middleName}} {{item.lastName}}</span></td>
             </tr>
             <tr>
               <th><span>Email:</span></th>
             </tr>
             <tr>
-              <td><span>dondrose@gmail.com</span></td>
+              <td><span>{{item.email}}</span></td>
             </tr>
             <tr>
               <th><span>Location:</span></th>
             </tr>
             <tr>
-              <td><span>Atlanta, GA</span></td>
+              <td><span>{{item.city}}, {{item.state}}</span></td>
             </tr>
             <tr>
               <th><span>My Links :</span></th>
             </tr>
             <tr>
-              <td><a href="https://www.linkedin.com/in/donalddrose/"><span>LinkedIn</span></a></td>
-              <td><a href="https://github.com/Dondrose/DonaldRoseResume"><span>GitHub</span></a></td>
+              <td><a href="{{item.linkedIn}}" target="_blank"><span>LinkedIn</span></a></td>
+              <td><a href="{{item.github}}" target="_blank"><span>GitHub</span></a></td>
             </tr>
           </tbody>
         </table>
