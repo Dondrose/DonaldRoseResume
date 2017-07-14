@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { ResumeService } from './resume.service';
+import { CandidateComponent } from './candidate/candidate.component'
 
 @Component({
   selector: 'app-resume',

@@ -9,12 +9,12 @@ import { ResumeService } from '../resume.service';
 export class CandidateService {
 
   private candidateUrl: '../../../data/donald-rose-resume.json';
-  candidate: ICandidate[];
+  
+  candidate: ICandidate;
 
   constructor(private http: Http) { }
 
     getCandidate(): Observable<ICandidate[]> {
     return this.http.get(this.candidateUrl).map(res => res.json().candidate);
   }
-
 }
