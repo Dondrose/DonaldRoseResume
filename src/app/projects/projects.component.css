@@ -21,6 +21,16 @@
     font-family: 
 }
 
+.sec-ddr-projects .web-portfolio-item {
+    text-align: center;
+}
+
+.sec-ddr-projects .web-portfolio-item img {
+    width: 75%;
+}
+
+
+
 .titleQuote {
     text-align: center;
 }
