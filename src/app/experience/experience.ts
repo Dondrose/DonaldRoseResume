@@ -1,27 +1,19 @@
 import {deserialize } from 'json-typescript-mapper';
 export class Accomplishments{
-    @JsonProperty('detail')
-    accomplishments: Accomplishments;
+    public details: string;
 }
 
 
 export class Experience {
-    @JsonProperty('companyName')
+    
     public companyName: string;
-    @JsonProperty('locationCity')
     public locationCity: string;
-    @JsonProperty('locationState')
     public locationState: string;
-    @JsonProperty('startDate')
     public startDate: string;
-    @JsonProperty('endDate')
     public endDate: string;
-    @JsonProperty('description')
     public description: string;
-    @JsonProperty('title')
     public title: string;
-    @JsonProperty({clazz: Accomplishments})
-    public accomplishments: Accomplishments;
+    //public accomplishments: Accomplishments[];
 
     constructor() {
         this.companyName = void 0;
@@ -31,5 +23,6 @@ export class Experience {
         this.endDate = void 0;
         this.description = void 0;
         this.title = void 0;
+        //this.accomplishments;
     }
 }

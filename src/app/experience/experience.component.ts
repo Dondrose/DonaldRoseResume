@@ -21,11 +21,23 @@ export class ExperienceComponent implements OnInit {
   getExperience() {
     return this.experienceService.getProfileData()
       .subscribe(
+        (data) => {
+          this.experience = data
+          console.log('experience:', this.experience)
+          console.log('accomplishments:', this.experience.accomplishments )
+        }
+      );
+  }
+
+  /*
+  getExperience() {
+    return this.experienceService.getProfileData()
+      .subscribe(
         response => this.experience = response,
         error => this.errMes = <any>error
       );
   }
-
+*/
   
   ngOnInit(): void {
     this.getExperience();

@@ -18,7 +18,6 @@ export class ExperienceService {
 
   getProfileData(): Observable<Experience[]> {
     return this.http.get(this.experienceURL)
-      .flatMap((res) => res.json())
       .map(this.extractData)
       .catch(this.handleError)
   }
@@ -38,6 +37,7 @@ private handleError(error: Response | any) {
   
   private extractData(res: Response) {
     let body = res.json().experiences;
+    
     return body || { };
   }
 }
