@@ -1,6 +1,9 @@
-import {deserialize } from 'json-typescript-mapper';
+
 export class Accomplishments{
-    public details: string;
+    public detail: string;
+    constructor() {
+        this.detail = void 0;
+    }
 }
 
 
@@ -13,7 +16,7 @@ export class Experience {
     public endDate: string;
     public description: string;
     public title: string;
-    //public accomplishments: Accomplishments[];
+    public accomplishments: Accomplishments[];
 
     constructor() {
         this.companyName = void 0;
@@ -23,6 +26,6 @@ export class Experience {
         this.endDate = void 0;
         this.description = void 0;
         this.title = void 0;
-        //this.accomplishments;
+        this.accomplishments;
     }
 }

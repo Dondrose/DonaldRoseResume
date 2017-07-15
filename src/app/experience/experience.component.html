@@ -2,26 +2,20 @@
   <div fxLayout="row">
     <div fxFlex="100%">
       <h2>Work Experience</h2>
-      <p class="titleQuote"><em>Luck favors the prepared</em></p>
     </div>
   </div>
   <hr class="titleDivide">
   <div id="roseworks-job-details" fxLayout="row" *ngFor="let item of experience" >
     <div fxLayout="column" fxFlex="30%" class="sideInfo">
       <h4>{{item.companyName}}</h4>
-      <span>Atlanta, GA</span>
-      <span>January 2016 - Current</span>
+      <span>{{item.locationCity}}, {{item.locationState}}</span>
+      <span>{{item.startDate}} - {{item.endDate}}</span>
     </div>
     <div fxLayout="column" fxFlex="70%" class="mainInfo">
-      <h4>Technology Director</h4>
-      <span>Managed a team of 2 - 5 employees. Responsibilities included hiring, acquiring new business, developer training, team-building, coaching, project management. Launched over 15 web site redesigns from inception to completion.  </span>
+      <h4>{{item.title}}</h4>
+      <span>{{item.description}}</span>
       <ul class="jobList">
-        <li><span>Curated tech education courses and curriculum using various technologies.</span></li>
-        <li><span>Leverage partnerships with schools, community organization and other non-profit organizations to established and expand tech educations within existing programs.</span></li>
-        <li><span>Implemented software to automatize operations and increase workflow efficiency.</span></li>
-        <li><span>Responsible building web assets, workspace folders and development environments for the online and in person class sessions.</span></li>
-        <li><span>Collected and analyzed data to generate reports that: assisted with grant writing; program adjustments and potential expansion opportunities.</span></li>
-
+        <li *ngFor="let deds of item.accomplishments ">{{deds.detail}}</li>
       </ul>
     </div>
   </div>
