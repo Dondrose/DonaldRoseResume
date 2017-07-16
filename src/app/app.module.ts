@@ -3,8 +3,10 @@ import { NgModule }           from '@angular/core';
 import { FormsModule }        from '@angular/forms';
 import { HttpModule }         from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule }   from '@angular/flex-layout';
+import {MdButtonModule, MdCheckboxModule} from '@angular/material';
+
 import { AppComponent }       from './app.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -38,12 +40,19 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     FlexLayoutModule,
+    MdButtonModule,
+    MdCheckboxModule,
     RouterModule.forRoot(appRoutes)
   ],
+  exports: [
+    MdButtonModule,
+    MdCheckboxModule
+  ], // Grants access to all components to use these material components
   providers: [HeaderService, ProfileService, ExperienceService],
-  bootstrap: [AppComponent, ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
