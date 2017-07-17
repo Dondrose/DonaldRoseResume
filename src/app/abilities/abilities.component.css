@@ -24,9 +24,14 @@
     text-align: center;
 }
 
+
 .titleQuote {
     text-align: center;
 }
 .sec-ddr-abilities .rightSide {
     text-align: center;
+}
+
+.sec-ddr-abilities .abilities-content {
+    text-align: left;
 }

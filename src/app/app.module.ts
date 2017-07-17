@@ -5,7 +5,7 @@ import { HttpModule }         from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule }   from '@angular/flex-layout';
-import {MdButtonModule, MdCheckboxModule} from '@angular/material';
+import { MdButtonModule, MdCheckboxModule, MdSliderModule, MdProgressBarModule} from '@angular/material';
 
 import { AppComponent }       from './app.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -18,6 +18,10 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderService } from './header/header.service';
 import { ProfileService } from './profile/profile.service';
 import { ExperienceService } from './experience/experience.service';
+import { AbilitiesService } from './abilities/abilities.service';
+import { ProjectService } from './projects/project.service';
+
+import 'hammerjs';
 
 const appRoutes: Routes = [
   {path: 'abilities-link', component: AbilitiesComponent},
@@ -46,13 +50,15 @@ const appRoutes: Routes = [
     FlexLayoutModule,
     MdButtonModule,
     MdCheckboxModule,
+    MdSliderModule,
+    MdProgressBarModule,
     RouterModule.forRoot(appRoutes)
   ],
   exports: [
     MdButtonModule,
     MdCheckboxModule
   ], // Grants access to all components to use these material components
-  providers: [HeaderService, ProfileService, ExperienceService],
+  providers: [HeaderService, ProfileService, ExperienceService, AbilitiesService, ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

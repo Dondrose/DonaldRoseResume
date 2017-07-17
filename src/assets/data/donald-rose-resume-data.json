@@ -113,41 +113,460 @@
     }
   ],
   "abilities": {
-    "softwareKnowledge": [
+    "section": [
       {
-        "name": "Illustrator",
-        "proficiency": 100,
-        "icon": "Icon"
+        "title": "Web Development & Frameworks",
+        "list":  [
+          {
+            "name": "NodeJS",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Git",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "WordPress",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Drupul",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "cPanel",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "MongoDB",
+            "proficiency": 100,
+            "icon": "Icon"
+          }
+        ]
       },
       {
-        "name": "Photoshop",
-        "proficiency": 100,
-        "icon": "Icon"
-      }
-    ],
-    "technicalKnowledge": [
-      {
-        "name": "Mobile App Dev",
-        "proficiency": 100,
-        "icon": "Icon"
+        "title": "Coding Languages, Concepts",
+        "list":  [
+          {
+            "name": "Java",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "C#",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Javascript ES5 ~ ES6",
+            "proficiency": 85,
+            "icon": "Icon"
+          },
+          {
+            "name": "Typescript",
+            "proficiency": 80,
+            "icon": "Icon"
+          },
+          {
+            "name": "Angular2/4",
+            "proficiency": 80,
+            "icon": "Icon"
+          },
+          {
+            "name": "React",
+            "proficiency": 70,
+            "icon": "Icon"
+          },
+          {
+            "name": "Java",
+            "proficiency": 90,
+            "icon": "Icon"
+          },
+          {
+            "name": "PHP",
+            "proficiency": 80,
+            "icon": "Icon"
+          },
+          {
+            "name": "C#",
+            "proficiency": 75,
+            "icon": "Icon"
+          }
+        ]
       },
       {
-        "name": "Angular 2",
-        "proficiency": 100,
-        "icon": "Icon"
-      }
-    ],
-    "codingKnowledge": [
-      {
-        "name": "HTML5",
-        "proficiency": 100,
-        "icon": "Icon"
+        "title": "Technical Skills",
+        "list":  [
+          {
+            "name": "Full Stack Web Development",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Photoshop",
+            "proficiency": 100,
+            "icon": "Icon"
+          }
+        ]
       },
       {
-        "name": "CSS3",
-        "proficiency": 100,
-        "icon": "Icon"
+        "title": "Business Management Skills",
+        "list":  [
+          {
+            "name": "Full Stack Web Development",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Photoshop",
+            "proficiency": 100,
+            "icon": "Icon"
+          }
+        ]
       }
-    ]
-  }
+    ] 
+  },
+  "portfolio": [
+    {
+      "section":[
+        {
+          "title": "WordPress",
+          "projects": [
+             {
+              "imgURL": "http://localhost:4200/assets/imgs/roseworks-site.png",
+              "linkURL":"http://roseworks.org/",
+              "title": "RoseWorks",
+              "type": "WordPress Website",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "technologies": [
+                {
+                  "name": "WordPress"
+                },
+                {
+                  "name": "PHP"
+                },
+                {
+                  "name": "Custom Theme Development"
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "http://localhost:4200/assets/imgs/rohadfox-site.png",
+              "linkURL":"http://www.rohadfox.com/",
+              "title": "Rohadfox",
+              "type": "Custom WordPress Theme & Site",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "http://localhost:4200/assets/imgs/libertyofgentlemen-site.png",
+              "linkURL":"http://libertyofgentlemen.com/",
+              "title": "Hong Kong Tailors | Liberty of Gentlement",
+              "type": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "http://localhost:4200/assets/imgs/delmackay-site.png",
+              "linkURL":"",
+              "title": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            }  
+          ]
+        },
+        {
+          "title": "Web Apps",
+          "projects": [
+             {
+              "imgURL": "",
+              "linkURL":"",
+              "title": "Donald D. Rose Resume",
+              "type": "Angular 4 Website",
+              "description": "",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "",
+              "linkURL":"",
+              "title": "",
+              "description": "",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            }  
+          ]
+        },
+        {
+          "title": "Digital and Graphic Design",
+          "projects": [
+             {
+              "imgURL": "",
+              "linkURL":"",
+              "title": "",
+              "type": "",
+              "description": "",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "",
+              "linkURL":"",
+              "title": "Rohadfox",
+              "type": "",
+              "description": "",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "",
+              "linkURL":"",
+              "title": "Hong Kong Tailors | Liberty of Gentlement",
+              "type": "",
+              "description": "",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "imgURL": "",
+              "linkURL":"",
+              "title": "",
+              "description": "",
+              "technologies": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ],
+              "concepts": [
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                },
+                {
+                  "name": ""
+                }
+              ]
+            }  
+          ]
+        }
+      ]
+    }
+  ]
 }

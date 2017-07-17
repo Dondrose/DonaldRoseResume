@@ -13,10 +13,10 @@
 .sec-ddr-projects h5,
 .sec-ddr-projects h6 {
     font-family: 'PT Serif', serif;
+    text-align: center;
 }
 
 .sec-ddr-projects h2 {
-    text-align: center;
     font-size: 28px;
     font-family: 
 }
@@ -26,7 +26,7 @@
 }
 
 .sec-ddr-projects .web-portfolio-item img {
-    width: 75%;
+    width: 75% !important;
 }
 
 

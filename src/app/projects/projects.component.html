@@ -1,44 +1,21 @@
-<section class="sec-ddr-projects">
-  <div fxLayout="row">
-    <div fxFlex="100%">
-      <h2>Projects Portfolio</h2>
-      <p class="titleQuote"><em>Another Amazing Quote</em></p>
+<section class="sec-ddr-projects" *ngFor="let item of portfolio">
+    <h2>Projects Portfolio</h2>
+    <div fxLayout="row" *ngFor="let sec of item.section">
+        <div fxFlex="100%">
+            <h3>{{sec.title}}</h3>
+            <div fxLayout="row" fxLayoutAlign="center" *ngFor="let proj of sec.projects">
+              <div fxFlex="50%" class="web-portfolio-item">
+                <img src="{{proj.imgURL}}" alt="">
+                <h4>{{proj.title}}</h4>
+                <span>{{proj.type}}</span>
+                <p>{{proj.description}}</p>
+                <div fxLayout="column" *ngFor="let tech of proj.technologies">
+                  <div fxFlex="25%">
+                    {{tech.name}}
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div fxLayout="row">
-    <div fxFlex="50%">
-      <div class="web-portfolio-item">
-        <img src="../../assets/imgs/roseworks-site.png" alt="">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-    <div fxFlex="50%">
-      <div class="web-portfolio-item">
-        <img src="../../assets/imgs/rohadfox-site.png" alt="">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-    <div fxLayout="row">
-    <div fxFlex="50%">
-      <div class="web-portfolio-item">
-        <img src="../../assets/imgs/libertyofgentlemen-site.png" alt="">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-    <div fxFlex="50%">
-      <div class="web-portfolio-item">
-        <img src="../../assets/imgs/myglobalteam-site.png" alt="">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
 </section>

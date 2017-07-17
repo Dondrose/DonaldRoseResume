@@ -1,0 +1,164 @@
+{ 
+  "id": 1, 
+  "candidate":[{
+    "firstName": "Cassandra",
+    "middleName": "Rachelle",
+    "lastName": "Rose",
+    "resumeTitle": "Country Girl City Dreams",
+    "quote": "Luck favors the prepared.",
+    "summary": "Day Job: Progressive Web and Mobile App developer with 12 years of experience of building for the internet. Possesses a strong coding foundation in object oriented programming and highly knowledgeable of data structures and algorithms. Adaptive to different web technologies and concepts (Current Passions: MVC, Docker, Angular, Typescript & GoLang) to deliver an innovative website. Motivated by the process of creation and delivering a final project that exceeds expectations. Alter Ego: Technology and programming instructor with a passion of making tech literacy a realization within under represented communities.",
+    "mobilePhone": "(773)-941-3370",
+    "homePhone": "(404)-344-4775",
+    "address": "Not Listed",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30349",
+    "email": "dondrose@gmail.com",
+    "emailAtl": "donaldrose@roselution.com",
+    "linkedIn": "https://www.linkedin.com/in/donalddrose/",
+    "github": "https://github.com/Dondrose/",
+    "bitbucket": "https://bitbucket.org/Roselution/donaldroseresume"
+  }],
+  "experiences": [
+    {
+      "companyName": "RoseWorks",
+      "locationCity": "Atlanta",
+      "locationState": "GA",
+      "startDate": "January 2016",
+      "endDate": "Current",
+      "description": "Responsible for the planning, archietecture",
+      "title": "Technology Director",
+      "accomplishments": [
+        {"detail": "Curated tech education courses and curriculum using various technologies."},
+        {"detail": "Leverage partnerships with schools, community organization and other non-profit organizations to established and expand tech educations within existing programs."},
+        {"detail": "Implemented software to automatize operations and increase workflow efficiency."},
+        {"detail": "Responsible building web assets, workspace folders and development environments for the online and in person class sessions."},
+        {"detail": "Collected and analyzed data to generate reports that: assisted with grant writing; program adjustments and potential expansion opportunities."}
+    ]},
+    {
+      "companyName": "Roselution",
+      "locationCity": "Atlanta",
+      "locationState": "GA",
+      "startDate": "October 2012",
+      "endDate": "Current",
+      "description": "Managed a team of 2 - 5 employees. Responsibilities included hiring, acquiring new business, developer training, team-building, coaching, project management. Launched over 15 web site redesigns from inception to completion.",
+      "title": "Lead Developer",
+        "accomplishments": [
+          {"detail": "Managed budgets, contracts, staff and project timelines based on the needs and requirements of the clients."},
+          {"detail": "Monitored network activity to ensure essential information is collected to be tracked, logged and analyzed."},
+          {"detail": "Utilized A/B testing to help increase web traffic flow, and convert that traffic into lead and eventually customers."},
+          {"detail": "Created custom WordPress Themes and Plugins when necessary to support the specific needs of the client."},
+          {"detail": "Designed website templates for projects[ sketches, wireframes, prototypes, PSDs]."},
+          {"detail": "Created and maintained the standards, document, files, media and oversaw production of Javascript, HTML, and CSS, PHP."}
+        ]
+    },
+     {
+      "companyName": "Nsoromma School",
+      "locationCity": "Atlanta",
+      "locationState": "GA",
+      "startDate": "June 2016",
+      "endDate": "",
+      "description": "",
+      "title": "Technology Instructor",
+        "accomplishments": [
+          {"detail": "Developed tech curriculum for programs with assessments, to facilitate class lessons and measure success."},
+          {"detail": "Instructed sessions that helped built foundational understanding of the basic programming principles."},
+          {"detail": "Setup promotional campaigns to generate more enrollments with the school and programs offered."},
+          {"detail": "Hosted presentations and workshop to enact interest in technology with children and teens."}
+        ]
+          },
+    {
+      "companyName": "Chil Creaive",
+      "locationCity": "Atlanta",
+      "locationState": "GA",
+      "startDate": "January 2015",
+      "endDate": "August 2016",
+      "description": "",
+      "title": "Full Stack Developer",
+      "accomplishments": [
+        {"detail": "Setup WordPress installation instances for new acquire accounts."},
+        {"detail": "Developed themes and plugins for custom designed sites."},
+        {"detail": "Created project timelines for backend coding functions."},
+        {"detail": "Coding of custom Wordpress theme and template files."},
+        {"detail": "Deployment from local environment to staging then to production using Git and a private repo on BitBucket."}
+      ]
+    },
+    {
+      "companyName": "Sherman School of Excellence",
+      "locationCity": "Chicago",
+      "locationState": "IL",
+      "startDate": "October 2013",
+      "endDate": "May 2014",
+      "description": "",
+      "title": "Technology Instructor",
+      "accomplishments": [
+        {"detail": "Engaged students with activities that introduced technology principles that encourage critical and creative thinking."},
+        {"detail": "Created projects to familiarize students with the method process it takes to complete most technology assignments."}
+      ]
+    },
+    {
+      "companyName": "Allstate Insurance Company",
+      "locationCity": "Woodridge",
+      "locationState": "IL",
+      "startDate": "Febrary 2010",
+      "endDate": "August 2014",
+      "description": "Field inbound calls from customers helping to answer their questions, explain options and sell additional coverage\"s as well as assisting them with adding and making changes to insurance policies.",
+      "title": "Insurance Agent",
+      "accomplishments": [
+        {"detail": "Trained & Developed new hires on sales techniques and tactics to enhance efficiency and production."},
+        {"detail": "Facilitated presentations that analyzed team goals and changes to processe."},
+        {"detail": "Implemented small programs to automate processes to increase workflow efficiency."},
+        {"detail": "Brought in, maintained & saved over $1,000,000 in premium in 2012 and currently on pace to exceed that goal in 2013."}
+      ]
+    }
+  ],
+  "abilities": {
+    "section": [
+      {
+        "title": "Software Knowledge",
+        "list":  [
+          {
+            "name": "Illustrator",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Photoshop",
+            "proficiency": 100,
+            "icon": "Icon"
+          }
+        ]
+      },
+      {
+        "title": "Coding Languages",
+        "list":  [
+          {
+            "name": "Illustrator",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Photoshop",
+            "proficiency": 100,
+            "icon": "Icon"
+          }
+        ]
+      },
+      {
+        "title": "Technical Skills",
+        "list":  [
+          {
+            "name": "Illustrator",
+            "proficiency": 100,
+            "icon": "Icon"
+          },
+          {
+            "name": "Photoshop",
+            "proficiency": 100,
+            "icon": "Icon"
+          }
+        ]
+      }
+    ] 
+  }
+}

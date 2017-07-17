@@ -9,13 +9,18 @@ export class AbilitiesList {
     }
 }
 
-export class Abilities {
-    public softwareKnowledge: AbilitiesList[];
-    public technicalKnowledge: AbilitiesList[];
-    public codingLanguage: AbilitiesList[];
+export class AbilitiesSection {
+    public title: string;
     constructor() {
-        this.codingLanguage = void 0;
-        this.softwareKnowledge = void 0;
-        this.technicalKnowledge = void 0;
+        this.title = void 0;
+    }
+}
+
+export class Abilities {
+    public section: AbilitiesSection[];
+    public list: AbilitiesList[];
+    constructor() {
+        this.section = void 0;
+        this.list = void 0;
     }
 }

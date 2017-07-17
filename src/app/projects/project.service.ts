@@ -6,17 +6,17 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import 'rxjs';
 
-import { Abilities } from './abilities'
+import { Portfolio } from './project';
 
 @Injectable()
-export class AbilitiesService {
+export class ProjectService {
 
-  private abilitiesURL: string = "http://localhost:4200/assets/data/donald-rose-resume-data.json";
-  
+  private portfolioURL: string = "http://localhost:4200/assets/data/donald-rose-resume-data.json";
+
   constructor(private http: Http) { }
 
-  getAbilitiesData(): Observable<Abilities[]> {
-    return this.http.get(this.abilitiesURL)
+  getPortfolioData(): Observable<Portfolio[]>{
+    return this.http.get(this.portfolioURL)
       .map(this.extractData)
       .catch(this.handleError)
   }
@@ -36,7 +36,7 @@ export class AbilitiesService {
   }
   
   private extractData(res: Response) {
-    let body = res.json().abilities.section;
+    let body = res.json().portfolio;
     return body || { };
   }
 
