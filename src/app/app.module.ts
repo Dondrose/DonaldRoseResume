@@ -22,6 +22,8 @@ import { AbilitiesService } from './abilities/abilities.service';
 import { ProjectService } from './projects/project.service';
 
 import 'hammerjs';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 
 const appRoutes: Routes = [
   {path: 'abilities-link', component: AbilitiesComponent},
@@ -52,6 +54,8 @@ const appRoutes: Routes = [
     MdCheckboxModule,
     MdSliderModule,
     MdProgressBarModule,
+    ProgressbarModule.forRoot(),
+    BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes)
   ],
   exports: [
